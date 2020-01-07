@@ -14,7 +14,7 @@ const Operators = props => {
     <div>
       {
       operators.map(operator1 => {
-        return <OperatorButton operator={operator} />;
+        return <OperatorButton operator={operator1} />;
       })}
       }
     </div>

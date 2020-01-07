@@ -26,9 +26,13 @@ function App() {
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Display />
       </div>
-      <Numbers />
-      <Operators />
-      <Specials />
+      <div classid="special">
+        <Specials />
+      </div>
+      <div className="number-section">\
+        <Numbers />
+        <Operators />
+      </div>
     </div>
   )
 }
