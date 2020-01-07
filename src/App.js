@@ -19,18 +19,19 @@ function App() {
   // Don't forget to pass the functions (and any additional data needed) to the components as props
 
   return (
+    
     <div className="container">
       <Logo />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        <Display />;
+        <Display />
       </div>
       <Numbers />
       <Operators />
       <Specials />
-      
     </div>
-  );
+  )
 }
 
 export default App;
+  

@@ -4,8 +4,8 @@ import { numbers } from  '../../../data';
 const NumberButton = props => {
   return (
     <>
-    <div>
-      <button>{props.number}</button>
+    <div className="number-section" className="col-1">
+      <button className="number-button">{props.number}</button>
     </div>
     </>
   );
