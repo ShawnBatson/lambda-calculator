@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css";
+import "./App.scss";
 import Display from './components/DisplayComponents/Display'; 
 import Numbers from './components/ButtonComponents/NumberButtons/Numbers'; 
 import Operators from './components/ButtonComponents/OperatorButtons/Operators';
